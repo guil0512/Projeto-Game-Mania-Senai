@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Visual.css">
+     <style>
+        
+         h1 span {
+             background:blue }
+           h1 { text-align:center;}
+           div {text-align:left}
+         
+           
+           
+            
+        
+
+     </style>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+       <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    </head>
+        
+
+    <body>
+        
+        
+        <h1 style="background-color: black; color:white"><span>GAME MANIA</span></h1>
+        <nav>
+            <ul class="menu">
+            <li><a href="Periféricos.html">Periféricos</a></li>
+            <li><a href="Games.html">Games</a></li>
+            <li><a href="Computadores.html">Computadores</a></li>
+            <li><a href="Celulares.html">Celulares</a></li>
+            </ul>
+        </nav>
+        
+        <form class="row g-3" onsubmit="return Validar() ,  Checkbox()">
+            <div class="col-md-4">
+              <label for="primeironome" class="form-label">Titular do cartão</label>
+              <input type="text" class="form-control" id="primeironome" value="" >
+            </div>
+            <div class="col-md-4">
+              <label for="segundonome" class="form-label">Número do cartão</label>
+              <input type="text" class="form-control" id="segundonome" value="" >
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="form-label">Data de expiração</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="email"  aria-describedby="inputGroupPrepend2" >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="cidade" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="cidade" > 
+            </div>
+            <div class="col-md-3">
+              <label for="estado" class="form-label">Estado</label>
+              <select class="form-select" id="estado" >
+                <option selected disabled value=""></option>
+                <option>SC</option>
+                <option>RJ</option>
+                <option>SP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>MG</option>
+                <option>MT</option>
+                <option>GO</option>
+                <option>MA</option>
+        
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="cep" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="cep" >
+            </div>
+            <div class="col-md-4">
+                <label for="teste" class="form-label">Código de segurança</label>
+                <input type="text" class="form-control" id="codigo" value="" >
+              </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="termos" >
+                <label class="form-check-label" for="termos"  >
+                  Aceito os termos e condições
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Comprar</button>
+            </div>
+          </form>
+          
+          <div>Contato</div> <br>
+          <img src=imagens/telefone.png width="75px" height="75px"> <img src=imagens/email.png width="75px" height="75px">
+        
+    </body>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="verificacao.js"></script>
+  
+</html>
