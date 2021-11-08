@@ -1,0 +1,48 @@
+header p{
+    float: right;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.menu{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    background-color:aquamarine;
+    border-radius: 5px; }
+
+    .menu li{
+        float: left;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        color: black;
+    }
+    
+    .menu a:hover{
+        background-color: white;
+        
+    }
+    
+    .leftmenu{
+        list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+    
+    }
+    
+    .leftmenu a{
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        color: gold;
+    }
+    
+    .leftmenu a:hover{
+        background-color: darkviolet;
+    }
+  
